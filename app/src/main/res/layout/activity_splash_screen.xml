@@ -5,9 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:background="#FEFEFE"
+    android:orientation="vertical"
     tools:context=".SplashScreen">
 
+
+    <!--<ImageView-->
+        <!--android:id="@+id/firstSplash"-->
+        <!--android:src="@drawable/ic_untitled_1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
     <ImageView
+        android:id="@+id/secondSplash"
         android:src="@drawable/loco_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
